@@ -29,6 +29,7 @@
 ##### exiftool C:(ваш путь)\WindowsXP_1551719014755.jpg
 
 ### Вывод:
+`
 #### ExifTool Version Number         : 13.59
 #### File Name                       : WindowsXP_1551719014755.jpg
 #### Directory                       : C:/Users/╧╩/Downloads
@@ -43,7 +44,7 @@
 #### Image Width                     : 1920
 #### Image Height                    : 1080
 #### GPS Position                    : 54 deg 17' 41.27" N, 2 deg 15' 1.33" W
-
+`
 ### _Шаг 2. Поиск по имени пользователя_
 
 #### С помощью GOOGLE-дорков находим twitter/github аккаунт с таким никнеймом
