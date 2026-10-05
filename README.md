@@ -1,12 +1,12 @@
 <img width="720" height="330" alt="Скриншот 05 10 26_03 14 17" src="https://github.com/user-attachments/assets/9f587b99-d475-417e-99f7-aa385c608a7d" />
-
+`
 # TryHackMe — OhSINT
 
 **Платформа:** TryHackMe  
 **Категория:** OSINT / IMINT / SOCMINT  
 **Сложность:** Easy
-
-# 1. Сама задача
+`
+# 1. _Сама задача_
 
 ### Дан единственный файл изображения. Требуется, используя методы OSINT, извлечь из него максимум информации и ответить на семь вопросов:
 
@@ -18,7 +18,7 @@
 #### 6. Where has he gone on holiday?
 #### 7. What is the person's password?
 
-# 2. Действия по ней
+# 2. _Действия по ней_
 
 ### Шаг 1. Извлечение метаданных
 
@@ -27,7 +27,7 @@
 ##### ```bash
 ##### exiftool C:(ваш путь)\WindowsXP_1551719014755.jpg
 
-#### Вывод:
+### Вывод:
 #### ExifTool Version Number         : 13.59
 #### File Name                       : WindowsXP_1551719014755.jpg
 #### Directory                       : C:/Users/╧╩/Downloads
@@ -43,7 +43,7 @@
 #### Image Height                    : 1080
 #### GPS Position                    : 54 deg 17' 41.27" N, 2 deg 15' 1.33" W
 
-### Шаг 2. Поиск по имени пользователя
+### _Шаг 2. Поиск по имени пользователя_
 
 #### С помощью GOOGLE-дорков находим twitter/github аккаунт с таким никнеймом
 
@@ -54,31 +54,31 @@
 
 <img width="540" height="115" alt="Скриншот 05 10 26_03 32 01" src="https://github.com/user-attachments/assets/439818b0-baad-4a81-be1a-73917799804a" />
 
-### Шаг 3. Анализ Twitter/X
+### _Шаг 3. Анализ Twitter/X_
 
 #### Найденные данные:
 #### Пост с раскрытием BSSID: B4:5D:50:AA:86:41
 
-### Шаг 4. Геолокация Wi-Fi точки доступа
+### _Шаг 4. Геолокация Wi-Fi точки доступа_
 
 #### Инструмент: wigle.net
 #### Запрос: BSSID B4:5D:50:AA:86:41
 
-#### Результат:
+### Результат:
 #### Город: London.
 #### SSID: UnileverWiFi.
 
-### Шаг 5. Анализ GitHub
+### _Шаг 5. Анализ GitHub_
 
 #### Репозиторий: OWoodfl1nt/people_finder
 #### В README-файле найдено:
 #### Email: OWoodflint@gmail.com.
 #### Упоминание: «I am from London»
 
-### Шаг 6. Анализ WordPress (ФИНАЛЬНЫЙ ШАГ)
+### _Шаг 6. Анализ WordPress (ФИНАЛЬНЫЙ ШАГ)_
 
-#### Инструмент: WordPress
-#### Блог: oliverwoodflint.wordpress.com
+### Инструмент: WordPress
+### Блог: oliverwoodflint.wordpress.com
 
 #### Найденные данные:
 #### В одном из постов: «Im in New York right now».
