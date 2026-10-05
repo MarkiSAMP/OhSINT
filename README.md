@@ -24,8 +24,8 @@
 
 #### Инструмент: `exiftool`  
 #### Команда:  
-#### ```bash
-#### exiftool C:(ваш путь)\WindowsXP_1551719014755.jpg
+##### ```bash
+##### exiftool C:(ваш путь)\WindowsXP_1551719014755.jpg
 
 #### Вывод:
 #### ExifTool Version Number         : 13.59
