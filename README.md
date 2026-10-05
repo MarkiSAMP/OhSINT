@@ -28,7 +28,9 @@
 ##### ```bash
 ##### exiftool C:(ваш путь)\WindowsXP_1551719014755.jpg
 
+
 ### __Вывод:__
+
 
 #### ExifTool Version Number         : 13.59
 #### File Name                       : WindowsXP_1551719014755.jpg
@@ -44,6 +46,7 @@
 #### Image Width                     : 1920
 #### Image Height                    : 1080
 #### GPS Position                    : 54 deg 17' 41.27" N, 2 deg 15' 1.33" W
+
 
 ### _Шаг 2. Поиск по имени пользователя_
 
